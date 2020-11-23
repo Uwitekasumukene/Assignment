@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <title>Drop-Down Menu design</title>
+        <link rel="stylesheet" href="Stlye.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+        <body>
+            <div class="menu-bar">
+        <ul>
+            <li class="active"><i class="fa fa-home"></i><a href="#">Home</a></li>
+            <li><a href="#"><i class="fa fa-user"></i>About Us</a>
+              <div class="sub-menu-1">
+                  <ul>
+                    <li><a href="#">Mission</a></li>
+                    <li><a href="#">Vision</a></li>
+                    <li><a href="#">Team</a></li>
+                  </ul>
+              </div>
+              </li>
+            <li><a href="#"><i class="fa fa-clone"></i>Services</a>
+                <div class="sub-menu-1">
+                    <ul>
+                      <li><a href="#">Web design</a></li>
+                      <li class="hover-me"><a href="#">Marketing</a><i class="fa fa-angle-right"></i>
+                         <div class="sub-menu-2">
+                            <ul>
+                                <li><a href="#">SEO</a></li>
+                                <li><a href="#">Social Media</a></li>
+                                <li><a href="#">Email Marketing</a></li>
+                              </ul>
+                         </div>
+                    </li>
+                      <li><a href="#">Mobile App</a><i class="fa fa-angle-right"></i></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#"><i class="fa fa-users"></i>Clients</a></li>
+            <li><a href="#"><i class="fa fa-angellist"></i>Investers</a></li>
+            <li><a href="#"><i class="fa fa-inr"></i>Pricing</a></li>
+            <li><a href="#"><i class="fa fa-edit"></i>Training</a></li>
+            <li><a href="#"><i class="fa fa-phone"></i>Contact</a></li> 
+        </ul>
+        </div>
+        <div class="regform"><h>Registration Form</h></div>
+        <div class="main">
+            <form>
+                <div id="name">
+                    <h2>Name</h2>
+                    <input class="firstName" type="text" name="first_name"><br>
+                    <label class="fristlabel">FirstName</label>
+                    <input class="lastName" type="text" name="last_name">
+                    <label class="lastlabel">LastName</label>
+                </div>
+                <h2 class="name">Company</h2>
+                <input class="company" type="text" name="company">
+
+                <h2 class="name">Email</h2>
+                <input class="email" type="text" name="email">
+
+                <h2 class="name">Phone</h2>
+                <input class="code" type="text" name="area_code">
+                <label class="area-code">Area Code</label>
+                <input class="number" type="text" name="phone">
+                <label class="phone-number">Phone Number</label>
+
+                <h2 class="name">Subject</h2>
+                <select class="option" name="subject">
+                <option disabled="disabled" selected="selected">--Choose Option</option>
+                <option>Subject 1</option>
+                <option>Subject 2</option>
+                <option>Subject 3</option>
+                
+
+                </select>
+
+                <h2 id="coustomer">Are you beginner ?</h2>
+                 
+                <label>
+                    <input class="radio-one" type="radio" checked="checked" name="">
+                    <span class="checkmark"></span>
+                    Yes
+                </label>
+                <label>
+                    <input class="radio-Two" type="radio"  name="">
+                    <span class="checkmark"></span>
+                    No
+                </label>
+                <button type="submit">Register</button>
+
+            </form>
+
+        </div>
+    </body>
+</html>
